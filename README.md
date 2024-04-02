@@ -1,0 +1,8 @@
+# A Pedagogical Approach to STEM Education using Mixed Reality
+8th International Conference of INSCR & 4th International Symposium on Ciliate Biology
+
+## Abstract
+
+The key to India becoming a developed nation in the next twenty-five years is through technological innovations. These innovations shall lead to product/services development that provide solution to various societal problems indigenously. Technology always fascinate students and it is necessary that they are exposed to it at the right stage. Virtual Reality (VR) and Augmented Reality (AR) are two of the well-known industry 4.0 technologies that have potential to transform the world. Their amalgamation with IoT, 3D printing, AI, Data Analytics etc. will take innovation to a new level. Mixed reality is a technology that encompasses the best of VR and AR and creates a space for learning where digital and physical objects can co-exist and interact immersivity. Mixed reality applications are more effective in visualizations of complex 3D structures that are otherwise difficult to illustrate in 2D environments and phenomena that are invisible to the naked eye. The present work highlights an immersive approach through the use of various open domain visualization and designing applications such as ShapesXR and Gravity Sketch which are deployed on Meta Quest 3 headset to design 3D models and visualize various topics under STEM. An online library with basic templates for STEM models has been developed to facilitate beginners incorporate mixed reality into STEM learning. The efforts showcase the transformative potential of mixed reality technology in STEM education by enhancing the cognitive perceivance of learners.
+
+In this repository you can access 3d models for VR-AR learning.
