@@ -1,0 +1,328 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>MR STEM Models </title>
+    <link rel="icon" href="static/fav.svg" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="static/fav.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        STEM Models Library
+      </a>
+      <!-- <a class="navbar-brand text-success" href="#">STEM Models Library</a> -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-success " href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="#authors">Authors</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container "  >
+    <br>
+    <br>
+    <header class="jumbotron my-4 ">
+      <h3 class="display-5">A Pedagogical Approach to STEM Education using Mixed Reality </h3>
+      <p class="lead text-primary">8th International Conference of INSCR & 4th International Symposium on Ciliate Biology</p>
+      <h6>Abstract</h6>
+      <p>The key to India becoming a developed nation in the next twenty-five years is through technological innovations. These innovations shall lead to product/services development that provide solution to various societal problems indigenously. Technology always fascinate students and it is necessary that they are exposed to it at the right stage. Virtual Reality (VR) and Augmented Reality (AR) are two of the well-known industry 4.0 technologies that have potential to transform the world.<span id="points">...</span> <span id="moreText"> Their amalgamation with IoT, 3D printing, AI, Data Analytics etc. will take innovation to a new level.  Mixed reality is a technology that encompasses the best of VR and AR and creates a space for learning where digital and physical objects can co-exist and interact immersivity. Mixed reality applications are more effective in visualizations of complex 3D structures that are otherwise difficult to illustrate in 2D environments and phenomena that are invisible to the naked eye. The present work highlights an immersive approach through the use of various open domain visualization and designing applications such as ShapesXR and Gravity Sketch which are deployed on Meta Quest 3 headset to design 3D models and visualize various topics under STEM. An online library with basic templates for STEM models has been developed to facilitate beginners incorporate mixed reality into STEM learning. The efforts showcase the transformative potential of mixed reality technology in STEM education by enhancing the cognitive perceivance of learners.</p></span>
+      <button onclick="toggleText()" id="textButton">
+        Read More
+    </button> <br> <br>
+
+      <a href="#modelgrid" class="btn btn-success btn-lg">Explore Models</a>  
+    </header>
+    
+
+<div class="modelgrid" id="modelgrid">
+<!-- first grid of 4 models-->   
+<div class="row text-center">
+<!-- model-1 eye -->
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="static/eye.jpg" alt="">
+        <div class="card-body">
+        <h4 class="card-title">Human Eye</h4>
+        <p class="card-text">A detailed 3D model of a human eye, showcasing its intricate internal anatomy including the cornea, iris, lens, and retina.</p>
+        </div>
+        <div class="card-footer">
+        <a href="3d-files/Eye model dissected.stl" class="btn btn-success">Download Model</a>
+        </div>
+    </div>
+    </div>
+<!-- model -2  heart -->
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="static/hh.jpg" alt="">
+        <div class="card-body">
+        <h4 class="card-title">Human Heart</h4>
+        <p class="card-text">A rotatable 3D model of the human heart, allowing exploration of its chambers, valves, and blood flow.</p>
+        </div>
+        <div class="card-footer">
+        <a href="3d-files/HeartHuman.stl" class="btn btn-success">Download Model</a>
+        </div>
+    </div>
+    </div>
+ <!-- model -3 carbon  -->
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="static/carbon.jpg" alt="">
+        <div class="card-body">
+        <h4 class="card-title">Tetrahedral Carbon</h4>
+        <p class="card-text">An interactive 3D model of a tetrahedral carbon atom, showcasing its four bonding sites and ability to form diverse organic molecules.</p>
+        </div>
+        <div class="card-footer">
+        <a href="3d-files/Tetrahedral Carbon.stl" class="btn btn-success">Download Model</a>
+        </div>
+    </div>
+    </div>
+<!-- model-4  lactic acid-->
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="static/lactic.png" alt="">
+        <div class="card-body">
+        <h4 class="card-title">Lactic Acid</h4>
+        <p class="card-text"> A 3D rotatable model of a lactic acid molecule, highlighting its atomic structure and functional groups. </p>
+        </div>
+        <div class="card-footer">
+        <a href="3d-files/lactic acid.stl" class="btn btn-success">Download Model</a>
+        </div>
+    </div>
+    </div>
+
+</div>
+
+<!--second grid of 4 models-->
+<div class="row text-center">
+
+    <!-- model 5 amino acid  -->
+    <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="static/aa.jpg" alt="">
+        <div class="card-body">
+        <h4 class="card-title">Amino Acids</h4>
+        <p class="card-text">A pair of 3D models showcasing the two enantiomers of an amino acid, demonstrating their mirrored but non-superimposable structures.</p>
+        </div>
+        <div class="card-footer">
+        <a href="#" class="btn btn-success">Download Model</a>
+        </div>
+    </div>
+    </div>
+ 
+    <!-- model-6 -->
+    <!-- <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+        <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+        </div>
+        <div class="card-footer">
+        <a href="#" class="btn btn-success">Download Model</a>
+        </div>
+    </div>
+    </div> -->
+
+    <!-- model-7  -->
+    <!-- <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+        <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+        </div>
+        <div class="card-footer">
+        <a href="#" class="btn btn-success">Download Model</a>
+        </div>
+    </div>
+    </div> -->
+
+    <!-- model-8  -->
+    <!-- <div class="col-lg-3 col-md-6 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+        <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+        </div>
+        <div class="card-footer">
+        <a href="#" class="btn btn-success">Download Model</a>
+        </div>
+    </div>
+    </div> -->
+
+</div>
+
+<!--App download guide-->
+<div class="app-guide">
+    <div class="card text-center">
+        <div class="card-header">
+          Mobile 3D Viewer
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Download the Mobile 3D file Viewer app from PlayStore</h5>
+          <p class="card-text">To visualise download the 3D (.stl/.obj) file from the library and then download this 3D viewer app and open file to visualise the model in your phone.</p>
+          <a href="https://play.google.com/store/apps/details?id=com.performance.meshview" target="_blank" class="btn btn-info">Download App</a>
+        </div>
+      </div>
+</div>
+<br>   
+
+<!--Authors box-->
+<div class="authors" id="authors">
+    <h5>Authors</h5> <br>
+    <ul class="list-unstyled">
+        <!-- author1  -->
+        <li class="media">
+          <img src="static/pt.png" width="75" height="75" class="mr-3" alt="...">
+          <div class="media-body">
+            <strong>Prashant Tiwari</strong> <a href="mailto: heyprshnt@gmail.com">Mail</a> ·<a href="https://linkedin.com/prshnttiwari">linkedin</a> <br>
+              <em>Student</em> <br>
+              <em>Department of Biomedical Science, Acharya Narendra Dev College, Univeristy of Delhi</em> <br>
+            </div> 
+        </li>
+
+        <!-- author 2  -->
+        <li class="media my-4">
+          <img src="static/alia.png" width="75" height="75" class="mr-3" alt="...">
+          <div class="media-body">
+            <strong>Alia Siddiqui</strong>   ·<a href="https://www.linkedin.com/in/alia-siddiqui-827831261/">linkedin</a> <br>
+              <em>Student</em> <br>
+              <em>Department of Biomedical Science, Acharya Narendra Dev College, Univeristy of Delhi</em> <br>   
+            </div>       
+        </li>
+
+        <!-- author 4  -->
+        <!-- <li class="media my-4">
+          <img src="static/priyanshu.png" class="mr-3" width="75" height="75" alt="...">
+          <div class="media-body">
+              <strong>Priyanshu Gupta</strong>   ·<a href="https://www.linkedin.com/in/priyanshu-gupta-84452223a/">linkedin</a> <br>
+              <em>Student</em> <br>
+              <em>Department of Electronics, Acharya Narendra Dev College, Univeristy of Delhi</em> <br>   
+          </div>      
+        </li> -->
+        <!-- author 3  -->
+        <li class="media">
+          <img src="static/ankushr.png" width="75" height="75" class="mr-3" alt="...">
+          <div class="media-body">
+            <strong>Ankush Rana</strong>   ·<a href="https://www.researchgate.net/profile/Ankush-Rana-9">ResearchGate</a> <br>
+            <em>Research Intern</em> <br>
+            <em>Department of Electronics, Acharya Narendra Dev College, Univeristy of Delhi</em> <br> 
+        </div>          
+        </li> <br>
+
+          <!-- author 5  -->
+          <li class="media">
+            <img src="static/amit-sir.png" width="75" height="75" class="mr-3" alt="...">
+            <div class="media-body">
+                <strong>Prof. Amit Garg</strong>   ·<a href="https://www.researchgate.net/profile/Amit-Garg-19">ResearchGate</a> <br>
+                <em>Professor</em> <br>
+                <em>Department of Electronics, Acharya Narendra Dev College, Univeristy of Delhi</em> <br> 
+            </div>          
+          </li>
+      </ul>
+</div>
+
+</div> 
+
+</div>
+    
+
+
+<!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-warning">Copyright &copy; Prashant Tiwari & Team 2024</p>
+      <p class="m-0 text-center text-success"> <a class="text-success" href="mailto: heyprshnt@gmail.com">Contact</a> · <a class="text-success" target="_blank" href="https://spieandc.org">AboutUs</a></p>
+       
+    </div>
+    <!-- /.container -->
+  </footer>
+   
+
+  <script>
+    function toggleText() {
+
+        // Get all the elements from the page
+        let points =
+            document.getElementById("points");
+
+        let showMoreText =
+            document.getElementById("moreText");
+
+        let buttonText =
+            document.getElementById("textButton");
+
+        // If the display property of the dots 
+        // to be displayed is already set to 
+        // 'none' (that is hidden) then this 
+        // section of code triggers
+        if (points.style.display === "none") {
+
+            // Hide the text between the span
+            // elements
+            showMoreText.style.display = "none";
+
+            // Show the dots after the text
+            points.style.display = "inline";
+
+            // Change the text on button to 
+            // 'Show More'
+            buttonText.innerHTML = "Read More";
+        }
+
+        // If the hidden portion is revealed,
+        // we will change it back to be hidden
+        else {
+
+            // Show the text between the
+            // span elements
+            showMoreText.style.display = "inline";
+
+            // Hide the dots after the text
+            points.style.display = "none";
+
+            // Change the text on button
+            // to 'Show Less'
+            buttonText.innerHTML = "Read More";
+        }
+    }
+</script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
